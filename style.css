@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.442);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    padding: 20px;
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+.clock{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.seting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgba(171, 168, 164, 0.316);
+    border-radius: 5px;
+    padding: 10px;
+     margin-bottom: 10px;
+}
+
+input:focus{
+    border: 1px solid rgba(0, 128, 128, 0.563);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    margin: 5px 15px 15px 0;
+    border: 1px solid rgba(171, 168, 164, 0.316);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: rgb(5, 2, 67);
+    color: #fff;
+    transition: 1s;
+}
+
+.upcoming{
+       list-style: none;
+    }        
+    
+    .liste_Alarm{
+    border-top: 1px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px solid rgba(225, 222, 219, 0.492);
+     margin-bottom: 10px;
+     height: 40px;
+     padding:10px;
+     border-radius: 5px;
+}
+
+i{
+    font-style: normal; 
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+i:hover{
+    color: red;
+    transition: 1s;
+}
